@@ -1,0 +1,1751 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+<!--
+p  {font-family: verdana,sans-serif; font-size: 10pt;}
+ul  {font-family: verdana,sans-serif; font-size: 10pt;}
+ol  {font-family: verdana,sans-serif; font-size: 10pt;}
+h1  {font-family: verdana,sans-serif;}
+h2  {font-family: verdana,sans-serif;}
+h3 {font-family: verdana,sans-serif;}
+a { color: #003399; text-decoration: underline; }
+a:visited { color: #003399; }
+a:hover { color: #000000; text-decoration: underline; }
+a:active { text-decoration: none ; }
+-->
+</style>
+<base target="_blank">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="600" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td> 
+      <h3 align="center">Fantasy Hockey League Simulator</h3>
+      <h3 align="center">Commissioners Manual</h3>
+      <h3 align="center">V1.5</h3>
+      <p align="center">Copyright&copy; 1997-1998 Sean Bates</p>
+      <p align="center">Copyright&copy; 1998-2003 FHLSim.com</p>
+      <p align=center style='text-align:center'><a href="http://www.fhlsim.com/">http://www.FHLSim.com/</a></p>
+      <p align=center style='text-align:center'><a href="mailto:fhlsupport@fhlsim.com">fhlsupport@fhlsim.com</a></p>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <h2>&nbsp;</h2>
+      <hr width="50%" color="003399">
+      <h2><a name="_Toc29212882">Welcome!</a></h2>
+      <p>Congratulations on your purchase of Fantasy Hockey League by FHLSim.com. 
+        Welcome to the world of simulation hockey. We think you will soon find 
+        FHL the easiest hockey simulation tool you've ever used to run a fantasy 
+        sports league.</p>
+      <hr width="50%" color="003399">
+      <h2><a name="_Toc29212883">FHL Overview</a></h2>
+      <p>FHL is a very complex simulation engine that allows you to simulate hockey 
+        games, compile results that are Internet ready in HTML. FHL consists of 
+        two main components: FHL program you have purchased, and its mate, GM 
+        Editor. </p>
+      <p>FHL is the commissioner’s tool for use in simulating your hockey league 
+        and generating the results. The GM Editor allows participants in your 
+        league to make roster changes and set their lineups without purchasing 
+        FHL itself. Lineups files are sent to the commissioner for input into 
+        FHL and the games can then be simulated.</p>
+      <p>GM Editor can be obtained at <a href="http://www.fhlsim.com/gmeditor.zip">http://www.FHLSim.com/gmeditor.zip</a></p>
+      <hr width="50%" color="003399">
+      <h2><a name="_Toc29212884">FHLSim.com</a></h2>
+      <p>To help you with your FHL league, FHLSim.com has the latest updates, 
+        add-ons and frequently asked questions and answers. FHLSim also provides 
+        online peer support so that you can benefit from the solutions, tips and 
+        tricks of other veteran commissioners. If those don't suit your needs, 
+        find our link to email technical support located on our website as well.</p>
+      <b> </b> 
+      <hr width="50%" color="003399">
+      <h2><a name="_Toc29212885">Getting Started</a></h2>
+      <h3><a name="_Toc29212886">Quick Start: Creating Your League</a></h3>
+      <p>If you can't wait, skip to the "Starting Your League" instructions below. 
+        This will show you how to create a completely new league so you can try out FHL. 
+        The following are recommended instructions for creating a new league from 
+        the statistics provided in the FHL distribution. The procedure is similar for any league files you 
+        may choose to use, whether included with the FHL distribution or downloaded 
+        from the Internet.</p>
+      <h3><a name="_Toc292128861">League Operations Overview</a></h3>
+      <p>FHL allows you to create and operate your own league of virtual hockey teams. You can simulate (sim) 
+         your league operations, allowing your General Managers to focus on individual games, or to
+         create a dynasty through the draft, player development, trades and free agent signings.</p>
+      <p>You start by naming your league, and deciding on a divisional alignment within the two conferences. 
+	 Each team you create is named, and assigned to a division. Players are created by entering a data set 
+         of player attributes and rating each player's skills and and assigned to teams. Existing player databases 
+         made by FHL and community members can kick start your league.</p>
+      <p>Coaches are also created according to their attributes, then hired onto each team and handle the management 
+	 of the in-game decisions. General Managers are real people. Your friends, coworkers and other folks you have 
+	 in your league decide on player movement, send in lines to you via email using the free GM Editor tool. You 
+	 can also handle this yourself if you prefer to play solo.
+         </p>
+      <p>Once your league is created the first time, each season of an FHLSim league typically includes several activities:
+      <ul>
+        <li>Create Schedule<br> Set up the regular season that your teams will play through.</li>
+        <li>Simulate Games<br> Set team lineups, simulate games, view and distribute the results. 
+                               During the season you also may do some of these optional activities:
+        <ul>
+           <li>Make Trades of players, draft picks and cash</li>
+           <li>Sign Free Agents to teams</li>
+           <li>Release Players from teams</li>
+           <li>Promote and demote players from the minors</li>
+        </ul>
+        <li>Rerate Players<br> Players ratings are adjusted by the FHL program to simulate skill changes from player development and aging.</li>
+	<li>Conduct an Amateur Draft<br> New players are added to the league as prospects through an Entry Draft. </li>
+	<li>Activate and Rate Prospects<br> Prospects may be signed to a contract, activated and assigned ratings.</li>
+	<li>Assign Free Agents to Signing Teams<br> Players whose contracts have expired will be assigned to teams according to new contract agreements by teams.</li>
+      </ul>
+      <h3><a name="_Toc292128862">Starting Your League</a></h3>
+
+      <p>Your Fantasy Hockey League simulator registration email comes with links 
+        to league files for several different seasons. Download those league files 
+        and unzip them into your c:\Program Files\Fantasy Hockey League folder 
+        (this folder will be referred to as %FHLHOME% for the rest of this document). 
+        If you installed FHL somewhere else, remember when we talk about the %FHLHOME% 
+        folder, we actually mean where you installed FHL.</p>
+      <p>Likely, one of your first desires is to create a completely new league 
+        from these or other league files. The following are suggested step-by-step 
+        instructions for creating a new league from the statistics provided in 
+        the FHL distribution. The procedure is similar for any league files you 
+        may choose to use, whether included with the FHL distribution or downloaded 
+        from the Internet.</p>
+      <p><em>Note: You may want to try this once with the suggested examples to 
+        become familiar with the process.</em></p>
+      <ol>
+        <li>Start the FHL program.<br>
+          <br>
+        </li>
+        <li>Select File | Load.<br>
+          <br>
+        </li>
+        <li>Browse to %FHLHOME% and load the Pro2004 league files shown there.<br>
+          <br>
+        </li>
+        <li>Explore the different teams to see the kind of players that will be 
+          in your new league.<br>
+          <br>
+        </li>
+        <li>Select File | New.<br>
+          <br>
+        </li>
+        <li> Name your league by entering the league name in the dialog box. This 
+          name will be used in all reports and subsequent references to your league 
+          name. In this example we will use the name <em>&quot;Compuleague&quot;<br>
+          <br>
+          </em></li>
+        <li>Select a .drs file when prompted for the player database to use as 
+          the source for your players. This file can be obtained from FHLSim.com 
+          website, or from the player databases distributed in the FHL distribution. 
+          Here we will chose NHL2001<em>.drs. <br>
+          <br>
+          </em></li>
+        <li>League Alignment<br>
+          Align your league in the <em>League Alignment </em>dialog by creating 
+          teams in their respective divisions. <br>
+          <br>
+        </li>
+        <li>Click the Add Team button <br>
+          <br>
+        </li>
+        <li>Enter a team name to add a team to Conference 1 Division 1. Team names 
+          are truncated to a maximum of 10 characters.<br>
+          <em>Note: If you make a mistake and want to move a team to a different 
+          division: </em><br>
+          &#150; <em>Click on the team and the click in the list in </em>placeholder 
+          <em>area in the upper left corner.</em><i><br>
+          &#150; <em>Click on a different division</em></i> <em>or conference.</em><br>
+          &#150; <em>Click on the team to move to the newly selected division 
+          and it will be added to the current division.</em> <br>
+          <br>
+        </li>
+        <li>Rename the respective conference and division names by clicking the 
+          name and clicking the rename buttons.<br>
+          <br>
+        </li>
+        <li>Populate the league with at least 16 teams. You can use fewer teams 
+          but FHL works best with at least 16 teams. We recommend using an even 
+          number of teams, ideally a number divisible by the number of divisions 
+          in your league.<br>
+          <br>
+        </li>
+        <li>Click exit when your league alignment is completed. You can return 
+          if you want to make changes later.<br>
+          <br>
+        </li>
+        <li>Select League Options<br>
+           Select the preferred league rules in each league options dialog tab. 
+          These are described below in the <em>Options </em>section. <br>
+          <br>
+        </li>
+        <li>Click Exit when complete. The main FHL window will appear with your 
+          teams displayed in the alignment your chose earlier. <br>
+          <br>
+        </li>
+        <li>Click File | Save As. You must choose a new league prefix. This league 
+          prefix will be used in front of each of your report filenames. In the 
+          example, use <em>c:\Program Files\Fantasy Hockey League\complg<br>
+          <br>
+          </em></li>
+        <li>Observe the league files displayed in the application as above.<br>
+          <br>
+        </li>
+        <li>Exit FHL and back up your league files so that you may return to this 
+          point if you make a mistake. <br>
+          <em>Note: We recommended you use an archive application such as WinZip 
+          to add the the league files. In this example, all the complg.* files 
+          located in c:\Program Files\Fantasy Hockey League\ folder should be 
+          zipped. If you are not familiar with Zip archiving applications, refer 
+          to <a href="http://www.winzip.com/">http://www.winzip.com/</a> for more 
+          information.<br>
+          <br>
+          </em></li>
+        <li>Assign Unused Players <br>
+          Select Draft|Assign Unused Players to assign players to teams. Select 
+          a player from the player list and select a team from the team list. 
+          Click the Add to Team button to add the selected player to the selected 
+          team. <br>
+          <br>
+        </li>
+        <li>Repeat the process until all players are assigned. <br>
+          <em>Tip: To enhance the process, consider using a macro program to automate 
+          the assignment of players to teams if you are randomly assigning players 
+          to teams. <br>
+          <br>
+          </em></li>
+        <li>League | Create Schedule is the step to use to get your league started. 
+          Choose your parameters here carefully, selecting even numbered matchups 
+          for divisional, conference and league matchups where possible. <br>
+          <br>
+        </li>
+        <li>Now you have a newly created league that is ready for play!</li>
+      </ol>
+      <h3><a name="_Toc292128863">Your Entry Draft</a></h3>
+      <p>As with the NHL, newly eligible players come into the league via an entry draft, where teams select from 
+  	 a pool of young players in reverse order of the previous year's finish. These players may subsequently 
+	 negotiate exclusively with only the drafting team, and then sign a professional contract. Until the time of 
+	 signing, the player simply is a prospect of that team.</p>
+      <p>To perform this process in FHL, you first must have a list of prospects. You may want to use your own draft 
+         list. Use the following instructions below to create your own draft list or skip to the next set to use an 
+         existing draft list.
+      <h4>Creating a Custom Draft List</h4>
+      <ol>
+        <li>Start your favorite text editor (or Notepad, if you have to :)
+        </li>
+        <li>Key in a list of draft eligible players, by name. Only first and last name are required, separated by spaces, 
+	    with each player on its own line. Save the file.
+	    <br><br>
+            <em>Note: Put the players in some logical order. Alphabetical order (by first name) or in rank 
+                order of your league's Cenrtal Scouting Bureau are two options.
+            </em>
+            <br><br>
+            <b><em>Warning: These names MUST be unique in your league, in your unassigned players list, 
+                   in the prospects list, and in your current entry draft list. If you do not make the 
+                   name unique, you may lose existing players statistics, or lose the prospect.
+            </b></em>
+	    <br><br>
+	</li>
+        <li>Save the draft list in your %FHLHOME% folder.
+        </li>
+      </ol>
+      <h4>Performing the Entry Draft</h4>
+      <ol>
+        <li>Start FHLSim.
+        </li>
+        <li>Select File | Load. Select your league files and click Open.
+        </li>
+        <li>Select League | Options. Select the number of draft rounds you want. 
+        </li>
+        <li>Check the Enable Lottery check box if you want to enable a lottery. <p><em>Note: Enabling the lottery will 
+            reseed the non-playoff teams pick order based on a weighted random algorithm. Lottery picks are not 
+            applicable to playoff teams, so which teams are affected will depend on your playoff format.</em></p> 
+        </li>
+        <li>Select Draft | Begin Entry Draft. A listing of the players in your entry draft is shown at right, 
+            in the order of occurrence in the list.</li>
+        <li>Browse to the file that contains the player list for this draft, and click Open.
+        <p><em>Note: The draft file included with the league files is called "prospect-list.txt".
+        </p></em> 
+        </li>
+        <li>If employing a lottery, click Output, and view the draft order. 
+        <p><em>Note: A lottery draft order will change each time you Select Draft | Begin. 
+               It will not change if you Select Draft | Continue. </em></p>
+        </li>
+        <li>Select the player on the right side, and click "Add to Team" to draft that player onto the team on the left.
+        </li>
+        <li>Continue the player selection process until you have completed your maximum rounds of drafting. 
+            A dialog box will indicate when the draft is complete and the draft record will be output in the TRANSFER folder.
+        </li>
+        <p><em>Warning: Once you complete your draft for that season, do not start another this season. 
+        Doing so will cause redundant prospects on each team.</p></em>
+        </li>
+      </ol>
+      
+      <h4>Player Activation</h4>
+      <p>When the draft is completed, some teams may sign their prospects to pro contracts  and assign them to the 
+         minor leagues for development. In FHLSim this process is to "Activate" a prospect. When a player is 
+         activated, ratings must be assigned that represent his skills. Otherwise, prospects do not have skill 
+	 ratings and therefore do not "develop". These ratings can be added as the player is activated. 
+         If the players name and ratings already exist in the player database (otherwise know as the .drs 
+         file) then that set of ratings will be used for the activated prospect.
+      </p>
+      <p>To Activate a player, follow these steps:</p>
+      <ol>
+        <li>Start FHL.
+        </li>
+        <li>Select Manager|View Prospects.
+        </li>
+        <li>Select the Team which have players to be activated.
+        </li>
+        <li>Select the Player.
+        </li>
+        <li>Click Activate.
+        </li>
+        <li>Select one of the following:<br>
+	  <ul>
+	  <li>Select the player matched from the list of players, or
+          </li>
+	  <li>Click "Use Selected" to use another player who is close to the players ratings, or
+	  </li>
+	  <li>Click "Manual Create" to create a new player in the database, on-the-fly.<br>
+              A player's attributes and ratings can be adjusted by right and left clicking to 
+              tweak the ratings up or down, or to key them in when a dialog box pops up.
+	  </li>
+	  </ul>
+        </li>
+      </ol>
+      <h3><a name="_Toc292128864">Player Ratings</a></h3>
+      <p>Ah yes. This is the root of most questions - what ratings are most important and how does 
+         it affect the game? Well, that the enigma that makes FHL so good at what it does. In many games
+         you can boil off the model to an equation. With FHL, if your ratings are true to the skills of the
+	 player, the players statistics and contribution to his team will be equally realistic.</p>
+      <p>The Player Roster Legend describes the ratings names and short forms. Here we will describe 
+         them in more detail.
+      </p>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td> 
+            <p>ShortForm&nbsp;</p>
+          </td>
+          <td> 
+            <p>Attribute&nbsp;</p>
+          </td>
+          <td> 
+            <p>Description&nbsp;</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>IT:</p>
+          </td>
+          <td> 
+            <p>Intensity</p>
+          </td>
+          <td> 
+            <p>This is the player's ability to play at his peak level every shift on the ice.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SP:</p>
+          </td>
+          <td> 
+            <p>Speed</p>
+          </td>
+          <td> 
+            <p>This is the player's skating speed, which is both acceleration and raw speed.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>ST:</p>
+          </td>
+          <td> 
+            <p>Strength</p>
+          </td>
+          <td> 
+            <p>This rating affects the player's ability to work in the corners, in front of the net, etc.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>EN:</p>
+          </td>
+          <td> 
+            <p>Endurance</p>
+          </td>
+          <td> 
+            <p>The endurance rating allows players to take more and longer shifts during the game.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DU:</p>
+          </td>
+          <td> 
+            <p>Durability</p>
+          </td>
+          <td> 
+            <p>The durability rating is directly propotional to how often a player will come out of a game unhurt.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DI:</p>
+          </td>
+          <td> 
+            <p>Discipline</p>
+          </td>
+          <td> 
+            <p>A player with a low discipline rating takes more penalties and is more likely to fight when combined with Intensity.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SK:</p>
+          </td>
+          <td> 
+            <p>Skating</p>
+          </td>
+          <td> 
+            <p>This rating affects the player's to balance and move in all four directions.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PA:</p>
+          </td>
+          <td> 
+            <p>Passing</p>
+          </td>
+          <td> 
+            <p>The passing rating represents how good the player is at moving the puck or setting players up in scoring position.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PC:</p>
+          </td>
+          <td> 
+            <p>Puck Control</p>
+          </td>
+          <td> 
+            <p>A high puck control rating means the player is more likely to shoot and less likely to give the puck away.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DF:</p>
+          </td>
+          <td> 
+            <p>Defence</p>
+          </td>
+          <td> 
+            <p>A high defensive ratings affects a players' ability to break up passes, rushes and cover offensive players.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SC:</p>
+          </td>
+          <td> 
+            <p>Scoring</p>
+          </td>
+          <td> 
+            <p>This is the players' ability to put the puck in the net and also to create scoring opportunities without the puck.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>EX:</p>
+          </td>
+          <td> 
+            <p>Experience</p>
+          </td>
+          <td> 
+            <p>Experienced players tend to be more consistent from one game to the next, and tend to be more effective in close games.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>LD:</p>
+          </td>
+          <td> 
+            <p>Leadership</p>
+          </td>
+          <td> 
+            <p>Players demonstrating leadership tend to make the whole team more consistent from game to game and shift to shift.</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>OV:</p>
+          </td>
+          <td> 
+            <p>Overall</p>
+          </td>
+          <td> 
+            <p>OV is a composite of the other ratings shown above. The weighting of these ratings is different 
+               for offensive players, defensive players and goaltenders, recognizing thier important roles on 
+               the team and the relative value provided.</p>
+          </td>
+        </tr>
+      </table>
+
+
+      <hr width="50%" color="003399">
+      <h2><a name="_Toc29212887">FHL Reference Manual</a></h2>
+      <h3><a name="_Toc29212888">FHL Menu Options</a></h3>
+      <p>This section contains a description of all the menu options you will 
+        find in FHL.</p>
+      <h3><a name="_Toc29212889">1.0 File Options</a></h3>
+      <h4>1.1 LOAD (CTRL-L) </h4>
+      <p>Load a saved league file. If you have made changes to your current league, 
+        FHL will prompt you to save them prior to loading the new league.</p>
+      <h4>1.2 SAVE (CTRL-S)</h4>
+      <p>Save current league file. Normally, as you make changes in FHL, the changes 
+        are saved in swp files, and flags are set when the changes in memory and 
+        swp files are out of synch with your league files. When you elect to save, 
+        the information in memory is written to the swp files, and those are are 
+        over to the normal league files. </p>
+      <p>The league files consist of:</p>
+      <p>sensim.tms &#150; TeaMS file; this file records team names, division 
+        names, and alignments in the league. <br>
+        sensim.ros &#150; ROSter files for accumulated stats<br>
+        sensim.lge &#150; LeaGuE file; this is where league settings are stored<br>
+        sensim.pct &#150; ProspeCT file;<br>
+        sensim.fas &#150; Free AgentS file; records who the free agents are and 
+        what level.<br>
+        sensim.scd &#150; SCheDule file; this is where the current league schedule 
+        is stored.<br>
+        sensim.scx &#150; SChedule file (FHLX format); this is where the current 
+        league schedule is stored in FHLX format.<br>
+        sensim.dpk &#150; Draft PicK; this file holds information about team draft 
+        pick ownership and trades.<br>
+        sensim.pri &#150; PRIority filel this is where the priority list for teams 
+        in drafts is stored.<br>
+        sensim.wvr &#150; WaiVeR; holds players currently on waivers and claims 
+        against them.<br>
+        sensim.coa &#150; COAch data file; stores info about your coaches.<br>
+        sensim.drs &#150; Data RoSter files; source files for player ratings and 
+        creating new leagues.<br>
+        sensim.tra &#150; TRAnsactions file; stores the stuff for trades, promotions, 
+        demotions, etc.<br>
+        sensim.plf &#150; PLayofF file; stores information about the current state 
+        of your playoffs (if underway).<br>
+        sensim.rec &#150; RECords file; not used in 1.x<br>
+        sensim.csr &#150; Cumulative Stats Record; holds a checkpoint of a player's 
+        stats when he is traded.<br>
+        sensim.eml &#150; EMaiL file; records email addresses of GMs.<br>
+        sensim.frm &#150; FaRM file; records the farm stats.<br>
+        sensim.dft &#150; DraFT file; this file stores information about the current 
+        draft if one is underway</p>
+      <p>The swp files used are as follows:</p>
+      <table width="300" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td> 
+            <p>League File Extension</p>
+          </td>
+          <td> 
+            <p>Swap Filename</p>
+          </td>
+        </tr>
+        <tr> 
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Tms</p>
+          </td>
+          <td> 
+            <p align="center">swp.t</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Ros</p>
+          </td>
+          <td> 
+            <p align="center">swp.r</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Lge</p>
+          </td>
+          <td> 
+            <p align="center">swp.l</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Pct</p>
+          </td>
+          <td> 
+            <p align="center">swp.p</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Fas</p>
+          </td>
+          <td> 
+            <p align="center">swp.f</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Scd</p>
+          </td>
+          <td> 
+            <p align="center">swp.sc</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Scx</p>
+          </td>
+          <td> 
+            <p align="center">swp.scx</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Dpk</p>
+          </td>
+          <td> 
+            <p align="center">swp.d</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Pri</p>
+          </td>
+          <td> 
+            <p align="center">swp.pr</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Wvr</p>
+          </td>
+          <td> 
+            <p align="center">swp.wv</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Coa</p>
+          </td>
+          <td> 
+            <p align="center">swp.c</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Drs</p>
+          </td>
+          <td> 
+            <p align="center">swp.dr</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Tra</p>
+          </td>
+          <td> 
+            <p align="center">swp.tr</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Plf</p>
+          </td>
+          <td> 
+            <p align="center">swp.pf</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Dft</p>
+          </td>
+          <td> 
+            <p align="center">swp.df</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Rec</p>
+          </td>
+          <td> 
+            <p align="center">swp.rc</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Cum</p>
+          </td>
+          <td> 
+            <p align="center">swp.cm</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Eml</p>
+          </td>
+          <td> 
+            <p align="center">swp.e</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p align="center">Frm</p>
+          </td>
+          <td> 
+            <p align="center">swp.fm</p>
+          </td>
+        </tr>
+      </table>
+      <h4>1.3 SAVE AS </h4>
+      <p>Save As works just as Save does, except that you are able to save the 
+        current league file under a new name. All .swp files are copied to the 
+        new league filename.</p>
+      <h4>1.4 NEW (CTRL-N)</h4>
+      <p>Start a new league from scratch. All current teams and league info will 
+        be erased. You will then go to the Align League setup page where you can 
+        create teams and assign them to appropriate conferences and divisions 
+        (see 4.1 ALIGN LEAGUE).</p>
+      <h4>1.5 IMPORT HLS2 TEAMS </h4>
+      <p>Another new league option. Instead of starting from scratch, however, 
+        you import HLS2 teams. You will then proceed to the Align League setup 
+        page where you can arrange the teams in conferences and divisions. There 
+        are two options when importing HLS2 rosters; 1) Use FHL ratings, and 2) 
+        Use HLS2 ratings. If you use FHL ratings the program will cross reference 
+        player names from your HLS2 files but it will use the ratings from the 
+        default database. This is generally the best method as the FHL numbers 
+        produce the best results. If you choose to use HLS2 ratings, FHL will 
+        simply multiply your HLS2 numbers by 10 (to correspond with the FHL 25-99 
+        rating system). </p>
+      <h3><a
+name="_Toc29212890">2.0 MANAGER OPTIONS</a></h3>
+      <h4>2.1 VIEWING TEAM (CTRL-T)</h4>
+      <p>Upon selecting View Team you will go to the team window of whichever 
+        team has been selected on the main screen. You can also proceed to the 
+        team menu by DOUBLE CLICKING on the team's name in the main listing. At 
+        the team window you can change such info as current finances, team name, 
+        coach, team abbreviation, arena name, arena size or ticket price. To change 
+        any of these, simply click once on the desired item and a dialog window 
+        will open allowing you to enter new information. To change team finances 
+        click on the current finance amount. When the dialog box opens, enter 
+        the amount you wish to add (a negative number will subtract) to the current 
+        total.</p>
+      <h4>2.2 VIEWING COACHES</h4>
+      <p>To view coach information, click on &quot;Info&quot; next to the coach's 
+        name. A coach window will open showing the coach's ratings in Offence, 
+        Defence, Leadership and Experience as well as his current salary. To change 
+        any of these values simply retype them in the appropriate window. You 
+        will be prompted to save any changes when you exit. To hire a new coach, 
+        select &quot;Hire New&quot;. You will proceed to a list of available coaches. 
+        To select a new coach, double click on any name in the menu or highlight 
+        the appropriate name and click on &quot;Use Selected&quot;. The coach 
+        info window will be automatically updated.</p>
+      <h4>2.3 VIEW PROSPECTS (CTRL-P)</h4>
+      <p>Go to the prospects window. Once this window opens, you can select a 
+        team from the pull down menu and display it's prospects. To activate a 
+        prospect, highlight his name and select &quot;Activate&quot;. You will 
+        then proceed to a &quot;Find Match&quot; window where you can browse the 
+        unused players in the league database. Sometimes this is handy if a player's 
+        name has been mispelled. Simply locate the player's name in the list and 
+        then double click on it. The player will be added to the team's farm roster. 
+        If you cannot locate the player's name in the database then you can manually 
+        create ratings for him by selecting &quot;Manual Create&quot;. </p>
+      <p>Once in the Player Info window, simply enter the appropriate values by 
+        clicking on them and then entering info in the dialog boxes. The prospect 
+        window will also allow you to Add or Delete prospects by clicking on the 
+        appropriate button. When deleting a prospect, make sure his name is highlighted 
+        first.</p>
+      <h4>2.4 TRADING PLAYERS (CTRL-T)</h4>
+      <p>Go to the trade window where you can swap players, prospects, draft picks 
+        or cash between teams. Select the two teams involved in the trade by using 
+        the corresponding pull down menus. Then click on all the items involved 
+        in the trade. When you click on an item it remains highlighted. That means 
+        it will be involved in the trade, so if you accidentally click on something, 
+        make sure you click on it again to &quot;un-highlight&quot; it. Otherwise 
+        it will be traded. Once you have made the appropriate selections, click 
+        on &quot;Execute Trade&quot; and the deal is done. Players will be sent 
+        to the corresponding rosters (pro to pro, farm to farm). If you want to 
+        include money in the trade, click on the text window next to &quot;Cash&quot;. 
+        A dialog box will open allowing you to enter the amount of cash involved 
+        in the deal. You can get a quick opinion from the sim by selecting &quot;Assess 
+        Trade&quot;. FHL will tell you who it thinks is coming out ahead in the 
+        deal.</p>
+      <h4>2.5 FREE AGENTS (CTRL-F)</h4>
+      <p>Any players who's contract has been reduced to &quot;0&quot; will be 
+        considered a free agent. If you go to the Free Agent window you will see 
+        a list of these players. Clicking on &quot;Output&quot; will create an 
+        HTML file titled &lt;league&gt;FreeAgents.html in your FHL\TRANSFER directory. 
+        To sign a player to a team, highlight the team and the player and then 
+        select &quot;Add to Team&quot;. You will be prompted to enter the new 
+        contract length and salary. Once you have done this, the player will be 
+        assigned to the appropriate roster on the new team.</p>
+      <h4>2.6 CHECK WAIVERS (CTRL-W)</h4>
+      <p>Players who are currently on waivers can be viewed by selecting &quot;Check 
+        Waivers&quot;. You can also set the priority list in this screen. To set 
+        priority, click on &quot;Set Priority&quot; and you will switch to priority 
+        mode. Clicking on a team name will &quot;pull&quot; the name from the 
+        list. Click on the section of the list where you want the team to &quot;reappear&quot;. 
+        Once you are done setting the order, click on &quot;Save Priority&quot; 
+        to return to normal mode. You can save the priority order as the entry 
+        draft order by selecting &quot;Set Draft Order&quot;. When you click on 
+        a team in the priority list (while in normal mode), players available 
+        to that team will appear in the &quot;Waived Players&quot; list. If you 
+        want to claim a player, highlight his name and the team that will claim 
+        him and click on &quot;Claim Player&quot;. If a team has waived a player 
+        but wants him back you can select &quot;Recall Player&quot; to remove 
+        him from the waiver list. However, if he has already been claimed by a 
+        team that is higher on the priority list then this option is not available. 
+        Once a team has claimed a player from waivers, that team will be placed 
+        in the priority spot of the team it claimed the player from.</p>
+      <h4>2.7 RANDOM CONTRACTS</h4>
+      <p>Clicking on this option will allow you to randomly set player contracts 
+        from 1-4 years. This is done to all teams simultaneously and you will 
+        be prompted to confirm that you're sure you want to do this.</p>
+      <h3><a
+name="_Toc29212891">3.0 COACH OPTIONS</a></h3>
+      <h4>3.1 SET GAME ROSTER (CTRL-R) </h4>
+      <p>Select &quot;Set Game Roster&quot; to set which players are in a team's 
+        game roster. You can view players by position by simply turning the appropriate 
+        position buttons on or off. The roster list follows standard Windows conventions 
+        so you can select several names by holding down CTRL and clicking on them. 
+        They will then be moved at once when you select the appropriate movement 
+        button (Scratch&gt;, &lt;Dress, To Farm&gt;,&lt;To Pros). You can view 
+        detailed player info by double clicking on any player's name. </p>
+      <p>In order to have a complete roster you must have at least three players 
+        at each forward position, 6 defencmen and two goalies. There must also 
+        be a total of 20 players altogether. When your roster is complete &quot;Roster 
+        Complete&quot; will appear in the top right hand corner of the screen. 
+      </p>
+      <p>You can add players to the team by selecting &quot;Add Player&quot;. 
+        This will access the unused players in the player database. The &quot;Protect&quot; 
+        button is currently not implemented but will be used during expansion 
+        draft.</p>
+      <h4>3.11 PLAYER INFO WINDOW</h4>
+      <p>Displays all relevant player data. To change any data just click on the 
+        item you want to change and you will either receive a dialog box or the 
+        item will change at increments. If it is an incremental change, then you 
+        can alternate between upward and downward increments by either right clicking 
+        or left clicking with the mouse. To delete the player from the roster 
+        select &quot;Release&quot;. </p>
+      <h4>3.2 SET LINES (CTRL-E)</h4>
+      <p>Set's the game lines for a team. Clicking &quot;Auto&quot; will set the 
+        lines for you. As in the roster window, you can view players by position 
+        only and you can access player data by double clicking a player's name. 
+      </p>
+      <p>To enter players in appropriate spots, click on the player's name and 
+        then click on the spot you want to assign him to. Alternate between regular 
+        strength and special teams lines by clicking on the appropriate button 
+        in the top right hand corner. &quot;Extra Skaters&quot; are the players 
+        called upon first when a sub is required so generally they are your best 
+        players.</p>
+      <h4>3.3 RECEIVING TEXT LINES</h4>
+      <p>Click on Text Lines in the Lines Window to load text formatted lines 
+        for a team. You will go to a File Dialog that will allow you to locate 
+        the corresponding text file. The proper format for text lines is as follows:</p>
+      <p>The first five lines should list the players who will be in your roster. 
+        There cannot be more than twenty altogether, with only 2 players designated 
+        as goalies. List jersey numbers for players as follows, separating each 
+        with a comma:</p>
+      <p>Centres<br>
+        Left Wingers<br>
+        Right Wingers<br>
+        Defencemen<br>
+        Goalies</p>
+      <p>Type &quot;***&quot; on a separate line</p>
+      <p>Then, still using jersey numbers, assign players to lines in the following 
+        order:</p>
+      <p>4 even strength lines (5 players).<br>
+        2 5 on 4 power play lines (5 players).<br>
+        2 4 on 3 power play lines (4 players).<br>
+        2 4 on 5 penalty kill lines (4 players).<br>
+        2 3 on 5 penalty kill lines (3 players).<br>
+        2 Extra Skaters.<br>
+        1 Starting goalie.</p>
+      <p>All said and done your lines should look something like this:</p>
+      <p>26,20,25,54<br>
+        29,44,37,16<br>
+        39,13,32,57<br>
+        45,4,10,24,3,6<br>
+        56,33<br>
+        ***<br>
+        26,29,57,45,3<br>
+        20,16,13,4,24<br>
+        25,37,32,10,6<br>
+        54,44,39,10,6<br>
+        20,16,13,45,3<br>
+        26,29,57,4,24<br>
+        20,13,45,3<br>
+        26,16,4,24<br>
+        26,16,4,3<br>
+        13,29,24,45<br>
+        26,4,3<br>
+        13,24,45<br>
+        57,16<br>
+        56</p>
+      <p>When you receive the lines file via email, copy them from your email 
+        program and paste them into Notepad or a similar text program. Make sure 
+        there is no space at the top of and then save the file with a name that 
+        is easy to remember.</p>
+      <h4>3.4 AUTO ALL</h4>
+      <p>Automatically generate rosters and lines for all teams. Bear in mind 
+        that each team requires 3 centres, 3 left wingers, 3 right wingers, 6 
+        defencemen and 2 goalies dressed to be able to ice a team. If this is 
+        not the case the simulator will not be able to continue.</p>
+      <h3><a
+name="_Toc29212892">4.0 LEAGUE OPTIONS</a></h3>
+      <h4>4.1 ALIGN LEAGUE</h4>
+      <p>This screen will allow you to rearrange the setup of your league. Note, 
+        you do not want to do this once you have made a schedule as realigning 
+        the league will disrupt any current schedules you have made. </p>
+      <p>To view teams in a division, select the appropriate Conference and Division 
+        in the top right hand corner of the screen. Teams will appear in the text 
+        boxes at the bottom of the screen. Clicking on a team name will send it 
+        to the &quot;Unassigned Teams&quot; list. You can then assign the team 
+        to a different division by first selecting the division, highlighting 
+        the team in the Unassigned Teams list and then clicking on an empty text 
+        box. To add a team select &quot;Add&quot; when you are in the Division 
+        you want to add the team to. You can activate an Expansion Draft by clicking 
+        on the Expansion Draft button. </p>
+      <h3><a
+name="_Toc29212893">4.2 MAKE SCHEDULE</a></h3>
+      <p>Go to schedule window where you can create a new schedule. Creating a 
+        new schedule in mid season will obviously disrupt the current season. 
+        Sometimes you will select a certain configuration of games and you will 
+        receive an &quot;Attempt Failed&quot; error. If this happens try changing 
+        the number of games played in each category.</p>
+      <p>In order to produce an accurate schedule the number of games a team plays 
+        outside it's conference (i.e. vs League) must be even. So if there are 
+        13 teams in the opposing conference, you cannot play 3 games Versus League 
+        (because 3x13=39, an odd number). In this case, you would try changing 
+        the Versus League games to 2. When you make any changes, the Total GP 
+        by each team will be updated in the bottom right hand corner. You can 
+        add more games by using the toggle buttons next to Total GP/Team. Avg. 
+        GP/Day and Variance determine the number of games played each day.</p>
+      <h3><a
+name="_Toc29212894">4.3 REVIEW SCHEDULE</a></h3>
+      <p>Check scores of past games, or see when teams play each other. Simply 
+        highlight a team in each of the two menus and then select Review Schedule. 
+        Games played by the two teams will appear in the lower window.</p>
+      <h3><a
+name="_Toc29212895">4.4 PLAY GAMES (CTRL-G)</a></h3>
+      <p>Go to games window where you can simulate games. Selecting Today Games 
+        will play one day's worth of games automatically. You can play exhibition 
+        games by selecting a team in each of the two menus and then clicking on 
+        Exhibition Game. A dialog box will show you the score and tell you what 
+        the boxscore was saved as in your FHL\TRANSFER directory. </p>
+      <p>You can simulate an entire season by selecting Full Season, but this 
+        can take quite a while depending on the speed of your computer. Also, 
+        there is no way to interrupt this once it's started. Selecting Rest Day 
+        will rest all teams for a day, which is particularly handy if you're playoffs 
+        end early and you want to give teams some well deserved rest.</p>
+      <h3><a
+name="_Toc29212896">4.5 START PLAYOFFS</a></h3>
+      <p>Available once the regular season is complete. Playoff matchups are determined 
+        and a new file is created with playoff information saved separately from 
+        regular season. The file name is the same as your regular season plus 
+        &quot;PLF&quot;. eg. playoff file name for &quot;NHL98&quot; becomes &quot;NHL98PLF&quot;.</p>
+      <h3><a
+name="_Toc29212897">4.6 START NEW SEASON</a></h3>
+      <p>Available once the playoffs are complete. Continues the current league 
+        in a new season. Player contracts are reduced by one year and players 
+        age one year. Soon you will also have the option to &quot;re-rate&quot; 
+        players based on their age.</p>
+      <h4>4.7 OPTIONS</h4>
+      <p>Set game options, including HTML Output, simulator settings and game 
+        options.</p>
+      <h4>4.8 GENERAL OPTIONS</h4>
+      <p>Set the current league year. This is important if you want draft picks 
+        to be properly labelled. If your current year is listed as 1997. The next 
+        draft year will be considered to be 1998.</p>
+      <h4>4.9 OUTPUT OPTIONS</h4>
+      <p>This is where you determine which pages are outputted in HTML format. 
+        Click on all the pages you would like to have outputted and then click 
+        on Auto Output in the bottom right hand corner. After each day's games 
+        are played, the pages will be automatically created in your FHL\TRANSFER 
+        directory. </p>
+      <p>To customize pages you can click on HDR next to the appropriate page. 
+        This will open up a text window where you can enter custom HTML info. 
+        Whenever the page is created this HTML code will automatically be affixed 
+        to the beginning of the HTML document. Conversely FTR will allow you to 
+        edit the closing section of the HTML document, handy if you are creating 
+        tables to contain the league information.</p>
+      <p>For more information see section 5.2 Internet Output Header Options.</p>
+      <h4>4.10 PLAYOFFS OPTIONS</h4>
+      <p>Number of teams in playoffs can be set to a) Top 16 teams, b) Top 8 teams, 
+        or c) Top 4 teams. This means a) Top 8 from each conference, b) Top 4 
+        teams from each conference or c) Top 2 teams from each conference. If 
+        the &quot;Seed Division Leaders&quot; is checked, then each division winner 
+        will be seeded so that even if a division winner has less points than 
+        a second place finisher in the other division, the winner will be ranked 
+        higher come playoff time.</p>
+      <h4>4.11 FILES OPTIONS</h4>
+      <p>No Options implemented yet. File paths are all defaults as follows.</p>
+      <p>FHL\HEADERS: Source for HTML Header pages </p>
+      <p>FHL\TRANSFER: Transferred HTML pages </p>
+      <p>FHL\COMMAND: Line files from GM Editor</p>
+      <h4>4.12 SIMULATOR OPTIONS</h4>
+      <p>Set which elements you wish to include in your league. Also you can adjust 
+        the number of goals, shots, penalty minutes, suspensions and injuries 
+        in your league with the corresponding slider. Of the other options, Automatic 
+        Line Correction cannot be turned off.</p>
+      <h4>4.13 TRANSACTIONS OPTIONS</h4>
+      <p>Draft Rounds: Set the number of rounds in the entry draft.</p>
+      <p>Lottery: Determine whether or not a lottery will be held to determine 
+        the top overall picks. The lottery is conducted by taking all teams who 
+        did not make the previous season's playoffs. Teams are weighted according 
+        to how badly they performed in the previous season (i.e. the worst teams 
+        get more ballots). Teams are then drawn and the order is set. If lottery 
+        is not selected then draft order is according to record.</p>
+      <p>Unrestricted Age: Age at which free agents are considered to be unrestricted.</p>
+      <p>Minimum GP: Minimum number of games a player has to play to be considered 
+        eligible for waivers.</p>
+      <p>Age Exemption: Age, under which, a player will be exempt from waivers 
+        regardless of games played.</p>
+      <p>2-Way Con After: Number of games played after which a player will receive 
+        a two way contract. This means that he will receive a pro salary even 
+        if he is on the farm team.</p>
+      <p>Trade Deadline: Percentage of games played after which no trades are 
+        allowed.</p>
+      <h3><a
+name="_Toc29212898">5.0 INTERNET OPTIONS</a></h3>
+      <h4>5.1 OUTPUT HTML</h4>
+      <p>Output pre-formatted pages for the league. When you first open the window, 
+        pages to output will be selected according to the settings in the options 
+        window. However, you can toggle pages on or off as desired.</p>
+      <h4>5.2 OUTPUT HEADERS</h4>
+      <p>Each HTML report can include an optional header/footer in the html output 
+        that is provided by FHL itself. </p>
+      <p>These files are found in the %FHLHOME%\Headers\ folder named *.hd1 through 
+        *.hd16 for headers and *.ft1 through *.ft16 for the corresponding footers. 
+      </p>
+      <p>The header/footer filenames and reports can be edited within FHL through 
+        the Output Tab League|Options menu, by clicking on the HDR or FTR buttons 
+        beside each report. If you prefer an external editory, you may edit the 
+        files directly. These files are consulted each time the Internet|Output 
+        HTML report is invoked. The Report to filenames are as follows:</p>
+      <table width="400" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="75"> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p><b>Report</b></p>
+          </td>
+          <td> 
+            <p align="center"><b>Header</b></p>
+          </td>
+          <td> 
+            <p align="center"><b>Footer</b></p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Standings.html</p>
+          </td>
+          <td> 
+            <p align="center">hd1</p>
+          </td>
+          <td> 
+            <p align="center">ft1</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Rosters.html</p>
+          </td>
+          <td> 
+            <p align="center">hd2</p>
+          </td>
+          <td> 
+            <p align="center">ft2</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Leaders.html</p>
+          </td>
+          <td> 
+            <p align="center">hd3</p>
+          </td>
+          <td> 
+            <p align="center">ft3</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>TeamScoring.html</p>
+          </td>
+          <td> 
+            <p align="center">hd4</p>
+          </td>
+          <td> 
+            <p align="center">ft4</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Injury.html</p>
+          </td>
+          <td> 
+            <p align="center">hd5</p>
+          </td>
+          <td> 
+            <p align="center">ft5</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Finance.html</p>
+          </td>
+          <td> 
+            <p align="center">hd6</p>
+          </td>
+          <td> 
+            <p align="center">ft6</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Futures.html</p>
+          </td>
+          <td> 
+            <p align="center">hd7</p>
+          </td>
+          <td> 
+            <p align="center">ft7</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Schedule.html</p>
+          </td>
+          <td> 
+            <p align="center">hd8</p>
+          </td>
+          <td> 
+            <p align="center">ft8</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Lines.html</p>
+          </td>
+          <td> 
+            <p align="center">hd9</p>
+          </td>
+          <td> 
+            <p align="center">ft9</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Individuals.html</p>
+          </td>
+          <td> 
+            <p align="center">hd10</p>
+          </td>
+          <td> 
+            <p align="center">ft10</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Waivers.html</p>
+          </td>
+          <td> 
+            <p align="center">hd11</p>
+          </td>
+          <td> 
+            <p align="center">ft11</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>TeamStats.html</p>
+          </td>
+          <td> 
+            <p align="center">hd12</p>
+          </td>
+          <td> 
+            <p align="center">ft12</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>PlayerVitals.html</p>
+          </td>
+          <td> 
+            <p align="center">hd13</p>
+          </td>
+          <td> 
+            <p align="center">ft13</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Coaches.html</p>
+          </td>
+          <td> 
+            <p align="center">hd14</p>
+          </td>
+          <td> 
+            <p align="center">ft14</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Transact.html</p>
+          </td>
+          <td> 
+            <p align="center">hd15</p>
+          </td>
+          <td> 
+            <p align="center">ft15</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>GMs.html</p>
+          </td>
+          <td> 
+            <p align="center">hd16</p>
+          </td>
+          <td> 
+            <p align="center">ft16</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Top5Goals.html</p>
+          </td>
+          <td> 
+            <p align="center">n/a</p>
+          </td>
+          <td> 
+            <p align="center">n/a</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td> 
+            <p>Top5Assists.html</p>
+          </td>
+          <td> 
+            <p align="center">n/a</p>
+          </td>
+          <td> 
+            <p align="center">n/a</p>
+          </td>
+        </tr>
+      </table>
+      <h3><a
+name="_Toc29212899">6.0 DRAFT OPTIONS</a></h3>
+      <h4>6.1 BEGIN ENTRY DRAFT  </h4>
+      <p>This will start an entry draft using draft order determined by previous 
+        season or by setting it in the Check Waivers window (see Check Waivers 
+        2.5). You will be prompted to select a draft file. A default draft98.txt 
+        file is included with FHL and is located in your main FHL directory. You 
+        can make your own draft file by simply using Notepad to create a list 
+        of player names. Put one name per line, no spaces. Save this as a text 
+        file and then load it when prompted to do so. You can leave the draft 
+        at any point and pick up where you left off later.</p>
+      <h4>6.2 EXPANSION DRAFT</h4>
+      <h4>&nbsp;</h4>
+      <h4>6.3 ASSIGN UNUSED PLAYERS</h4>
+      <p>This allows you to assign unused players in the player database to teams. 
+        You can output all unassigned players to an HTML file by selecting &quot;Output&quot;.</p>
+      <hr width="50%" color="003399">
+      <h2><a
+name="_Toc29212900">League Administration Tips</a></h2>
+      <h3><a
+name="_Toc29212901">Test Your League Configuration</a></h3>
+      <p>Make sure that you play with FHL lots before you start a league. Particularly, 
+        run a few test season with FHL if you plan to use weird (read odd-numbered) 
+        divisional alignments and such. If you have an incongruent league where 
+        the teams are not evenly distributed among teams you may have some issues 
+        with how FHL handles the schedule and playoffs. If you try a 17-team league 
+        you are just asking for trouble.</p>
+      <h3><a
+name="_Toc29212902">Baseline Your League</a></h3>
+      <p>Be sure to baseline your league files before the start of a season. When 
+        we say baseline, we mean copy all the league files to a separate folder 
+        or better yet, drop them into a zip file with the date and time in the 
+        name. </p>
+      <h3><a
+name="_Toc29212903">Backup Your League Files Often</a></h3>
+      <p>FHL copies files from your league files to swp.* files when it starts. 
+        It them works on these files whenever it can to avoid screwing up your 
+        regular league files. Trouble with this is even when FHL exits cleanly, 
+        it’s possible for your league files to be put into a state where you don’t 
+        want to be.</p>
+      <p>Disk space is cheap, and unused space is wasted space. Before each game 
+        night you should back up your league files. Use discipline in backing 
+        up, or you will pay dearly when the two or three GMs that show up on your 
+        door to mod you up. </p>
+      <h3><a
+name="_Toc29212904">Develop a Process and Follow It</a></h3>
+      <p>Another way to enhance your ability to run a league and to avoid problems 
+        is to make a repeatable process for anything you do that’s league related. 
+        That means writing some step-by-step instructions for doing anything you 
+        do, as if your Great Aunt Frieda or your most technically incompetent 
+        friend was going to run games for you every night.</p>
+      <h3><a
+name="_Toc29212905">Automation</a></h3>
+      <p>Automate as much as you can. Use scripts and batch files to pull lineups 
+        and push content to the web. There are excellent tutorials on batch files 
+        on the web if you’ve never done them before. Ahuka Communications (<a
+href="http://www.ahuka.com/index.html">http://www.ahuka.com/index.html</a>)  has 
+        an excellent batch file tutorial starting at <a href="http://www.ahuka.com/dos/lesson15.html">http://www.ahuka.com/dos/lesson15.html</a></p>
+      <p><b>ActiveState ActivePerl</b> (<a href="http://www.activestate.com/">http://www.activestate.com/Products/ActivePerl/</a> )is 
+        a free scripting language for Windows that you can use to enhance your 
+        processes.</p>
+      <p>Some excellent tools are available from Tim Charron <a
+href="http://www.interlog.com/~tcharron/">http://www.interlog.com/~tcharron/</a>  
+      </p>
+      <p><b>Getmail</b> &#150; retrieves your pop3 mail and attachments to a folder. 
+        Handy for getting the latest lineups</p>
+      <p><b>BLAT</b> &#150; sends mail using SMTP. Handy for sending out league 
+        files via email and for notifications of updated web pages.</p>
+      <p><b>WGET</b> &#150; handy for retrieving web content in a batch file</p>
+      <p><b>Macro Express</b> ( <a href="http://www.macros.com/">http://www.macros.com/</a> 
+        ) is one of many handy tools for automating tedious and repetitive GUI 
+        tasks in FHL with a hotkey &#150; like assigning unassigned players.</p>
+      <h3><a
+name="_Toc29212906">BUGS</a></h3>
+      <p>Well, how about this for a section in a manual? Yes, FHL has bugs &#150; 
+        lots of them &#150; it’s a v1.x ! But software has bugs, too. It’s just 
+        that FHL’s bugs can really make you mad when they adversely affect your 
+        leagues play, which often involves a dozen of your closest buds.</p>
+      <p>This is a good honest admission that our product isn’t perfect and that 
+        you should take every precaution to save yourself from the torturous hell 
+        that awaits you if you have to learn the hard way about FHL problems in 
+        front of your closest friends. </p>
+      <p>FHL is particularly weak at exception handling, and does not fail cleanly 
+        when most runtime errors are encountered. We’re working on it but there 
+        is a lot of legacy code that can get you into a weird state. </p>
+      <p>Notwithstanding the admission of bugs, remember your licence agreement: 
+        we don’t warrant FHL will even work, so you can’t hold this section of 
+        the manual against us. We’re just trying to be honest here.</p>
+      <p>If you have a major crash, the best place to figure your way out is to 
+        mess around a bit, understand the problem and correlate it to a given 
+        team or operation. Then you can post that information to our support board 
+        and hopefully someone there will have a workaround for you.</p>
+      <p>You can send your league files to <a href="mailto:fhlsupport@FHLSim.com">fhlsupport@FHLSim.com</a> 
+        via email, with a very detailed description of the problem, the steps 
+        to repeat it, the last operations you performed before you encountered 
+        the error, and your speculation as to what the problem might be. </p>
+      <p>However, that will only assist us in patching FHL against this problem, 
+        NOT in getting your league files fixed. We will very rarely be able to 
+        fix league files for individual leagues, especially in time to save your 
+        league &#150; we simply haven’t the manpower or background it takes to 
+        resurrect league files for people.</p>
+      <p>The best you can hope for is to avoid the situation altogether, so read 
+        on…</p>
+      <hr width="50%" color="003399">
+      <h2><a
+name="_Toc29212907">How Not to Get Burned</a></h2>
+      <h3><a
+name="_Toc29212908">Where to Get Help</a></h3>
+      <p>If you are in trouble and don’t know what to do, your first bet is to 
+        check out the <b>FHL FAQ</b> <a href="http://www.fhlsim.com/faq.html">http://www.fhlsim.com/faq.html</a> 
+      </p>
+      <p>There is an <b>unofficial FHL FAQ </b>at the <b>FHL Forum </b>which is 
+        updated more often than the one at FHLSim.com.</p>
+      <p>The <b>FHL Forum </b>is where you will likely find someone who has had 
+        that problem before </p>
+      <p><a
+href="http://www.fhlsim.com/">http://www.fhlsim.com/</a></p>
+      <p><b>Usenet Newsgroups </b>are still a great place to go, specifically 
+      </p>
+      <p>via your newsreader: <a href="news:alt.sports.hockey.fantasy">news:alt.sports.hockey.fantasy</a> 
+      </p>
+      <p>via Google Groups <a
+href="http://groups.google.ca/groups?group=alt.sports.hockey.fantasy">http://groups.google.ca/groups?group=alt.sports.hockey.fantasy</a></p>
+      <p><b>Reference</b></p>
+      <h3><a
+name="_Toc29212909">Player Roster Legend</a></h3>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="50"> 
+            <p>CD:</p>
+          </td>
+          <td> 
+            <p>Condition. Determines the current health of the player in %. OK 
+              means 100%</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>IJ:</p>
+          </td>
+          <td> 
+            <p>Injury status of player</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DD:</p>
+          </td>
+          <td> 
+            <p>Day to day injury</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>1W:</p>
+          </td>
+          <td> 
+            <p>1-2 week injury</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>3W:</p>
+          </td>
+          <td> 
+            <p>2-4 week injury</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>1M:</p>
+          </td>
+          <td> 
+            <p>4-6 week injury</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>3M:</p>
+          </td>
+          <td> 
+            <p>2-4 month injury</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>IN:</p>
+          </td>
+          <td> 
+            <p>Injured Indefinitely</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>S#:</p>
+          </td>
+          <td> 
+            <p>Suspended for # games</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>HD:</p>
+          </td>
+          <td> 
+            <p>Handedness</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>IT:</p>
+          </td>
+          <td> 
+            <p>Intensity</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SP:</p>
+          </td>
+          <td> 
+            <p>Speed</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>ST:</p>
+          </td>
+          <td> 
+            <p>Strength</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>EN:</p>
+          </td>
+          <td> 
+            <p>Endurance</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DU:</p>
+          </td>
+          <td> 
+            <p>Durability</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DI:</p>
+          </td>
+          <td> 
+            <p>Discipline</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SK:</p>
+          </td>
+          <td> 
+            <p>Skating</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PA:</p>
+          </td>
+          <td> 
+            <p>Passing</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PC:</p>
+          </td>
+          <td> 
+            <p>Puck Control</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>DF:</p>
+          </td>
+          <td> 
+            <p>Defence</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SC:</p>
+          </td>
+          <td> 
+            <p>Scoring</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>EX:</p>
+          </td>
+          <td> 
+            <p>Experience</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>LD:</p>
+          </td>
+          <td> 
+            <p>Leadership</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>OV:</p>
+          </td>
+          <td> 
+            <p>Overall</p>
+          </td>
+        </tr>
+      </table>
+      <h3><a
+name="_Toc29212910">Team Scoring Legend</a></h3>
+      <table width="300" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="50"> 
+            <p>GP:   </p>
+          </td>
+          <td> 
+            <p>Games Played</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>G:</p>
+          </td>
+          <td> 
+            <p>Goals</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>A:</p>
+          </td>
+          <td> 
+            <p>Assists</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>P:</p>
+          </td>
+          <td> 
+            <p>Points</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>+/-:</p>
+          </td>
+          <td> 
+            <p>Plus Minus</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PIM:</p>
+          </td>
+          <td> 
+            <p>Penalty Minutes</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PP:</p>
+          </td>
+          <td> 
+            <p>Power Play goals</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>SH:</p>
+          </td>
+          <td> 
+            <p>Short Hand goals</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>GW:</p>
+          </td>
+          <td> 
+            <p>Game Winning Goals</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>GT:</p>
+          </td>
+          <td> 
+            <p>Game Tying Goals</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>S:</p>
+          </td>
+          <td> 
+            <p>Shots</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PCTG:</p>
+          </td>
+          <td> 
+            <p>Shooting Percentage</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>GS:</p>
+          </td>
+          <td> 
+            <p>Goal Scoring Streak (in games)</p>
+          </td>
+        </tr>
+        <tr> 
+          <td> 
+            <p>PS:</p>
+          </td>
+          <td> 
+            <p>Point Scoring Streak (in games)</p>
+          </td>
+        </tr>
+      </table>
+      <h2>&nbsp;</h2>
+      </td>
+  </tr>
+</table>
+</body>
+</html>
