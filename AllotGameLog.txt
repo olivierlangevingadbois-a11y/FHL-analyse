@@ -1,0 +1,50 @@
+7 février 2026
+Checking for all teams assigned to a division.
+SWEDEN     are in MILAN        Conference MILAN B    Division.
+FINLAND    are in MILAN        Conference MILAN B    Division.
+QUEBEC     are in MILAN        Conference MILAN A    Division.
+USA_WEST   are in MILAN        Conference MILAN A    Division.
+CANADA     are in CORTINA      Conference CORTINA A  Division.
+USA_EAST   are in CORTINA      Conference CORTINA A  Division.
+RUSSIA     are in CORTINA      Conference CORTINA  B Division.
+WORLD      are in CORTINA      Conference CORTINA  B Division.
+Checking for most and least teams in each division.
+Teams in (0,0)MILAN A   : 2
+Teams in (0,1)MILAN B   : 2
+Teams in (1,0)CORTINA A : 2
+Teams in (1,1)CORTINA  B: 2
+Most teams in a division is 2.
+Fewest teams in a division is 2.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+QUEBEC     c0d0 plays USA_WEST   c0d0 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+USA_WEST   c0d0 plays QUEBEC     c0d0 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+SWEDEN     c0d1 plays FINLAND    c0d1 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+FINLAND    c0d1 plays SWEDEN     c0d1 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+CANADA     c1d0 plays USA_EAST   c1d0 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+USA_EAST   c1d0 plays CANADA     c1d0 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+RUSSIA     c1d1 plays WORLD      c1d1 2 times, 1 times at home.
+Alotting out of conference games.
+Alotting out of division games.
+Alotting divisional games.
+WORLD      c1d1 plays RUSSIA     c1d1 2 times, 1 times at home.
+Requested games allocated for all teams.
